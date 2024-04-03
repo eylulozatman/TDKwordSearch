@@ -1,0 +1,96 @@
+
+.buttonCon{
+
+    display: flex;
+    height: max-content;
+    width: 100%;
+
+}
+.button1 {
+    padding: 10px 20px;
+    margin: 5px;
+    height: 200px;
+    width: 500px;
+    cursor: pointer;
+    /* color: #232323; */
+    /* background-color: #078080; */
+    color: #232946;
+    background-color: #b8c1ec;
+    border-radius: 5px;
+     border: 0cap;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+/* Tıklanınca renk değişimi */
+.button1:hover,
+.button1:focus {
+    /* background-color: #f45d48; */
+    background-color: plum;
+    
+}
+
+.button2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    /* background-color: #078080; */
+    color: #232946;
+    background-color: #b8c1ec;
+    transition: background-color 0.3s ease;
+}
+
+#inputParam{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    width: 450px;
+    color: #232946;
+    background-color: #b8c1ec;
+}
+
+.mainCon {
+    display: flex;
+    flex-direction: column; /* İçeriği dikey olarak düzenle */
+    justify-content: center; /* İçeriği yatay olarak ortala */
+    background-color: #424869;
+    margin: 0; /* Sayfa kenar boşluklarını kaldır */
+  
+}
+
+.inputCon {
+    display: flex;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------*/
+.resultCon {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #b8c1ec;
+}
+
+#resultsTable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resultCol {
+    width: 30%; /* Sütun genişliği */
+    border-radius: 4px;
+   /* border: 1px solid black;
+    background-color: #f8f5f2;*/
+    /* background-color: #70b0b0; */
+    color: #232946;
+    background-color: #b8c1ec;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+}
