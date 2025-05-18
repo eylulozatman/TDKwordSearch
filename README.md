@@ -1,1 +1,2 @@
-now my current database is in my local computer so results will not display
+words.json dosyası türkçedeki kelimeleri içerir.
+3 farklı arama türü gerçekleştirilir. 
