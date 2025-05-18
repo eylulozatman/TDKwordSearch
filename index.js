@@ -9,7 +9,6 @@ app.use(cors());
 
 
 
-
 // Veritabanı bağlantısı
 async function connectToDatabase() {
     const pool = mysql.createPool(config.database);
@@ -63,6 +62,8 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
+
 /*
 async function main() {
   try {
@@ -121,6 +122,7 @@ async function readAndInsert(connection) {
 }
 
 // main fonksiyonunu çağır
-//main();
+main();
 */
+
 
